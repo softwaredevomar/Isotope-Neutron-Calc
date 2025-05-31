@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct Isotope_Neutron_CalcApp: App {
+	@State private var showSplash = true
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			if showSplash {
+				SplashView()
+					.onAppear {
+						DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+							withAnimation {
+								self.showSplash = false
+							}
+						}
+					}
+			} else {
+				ContentView()
+            }
         }
     }
 }

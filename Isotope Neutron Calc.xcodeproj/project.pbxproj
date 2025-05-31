@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2960F6512DEAB6AE00EE872C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2960F6502DEAB6AE00EE872C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		2960F63B2DEAB39F00EE872C /* Isotope Neutron Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Isotope Neutron Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2960F63B2DEAB39F00EE872C /* Isotope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Isotope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2960F6502DEAB6AE00EE872C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		2960F6322DEAB39F00EE872C = {
 			isa = PBXGroup;
 			children = (
+				2960F6502DEAB6AE00EE872C /* LaunchScreen.storyboard */,
 				2960F63D2DEAB39F00EE872C /* Isotope Neutron Calc */,
 				2960F63C2DEAB39F00EE872C /* Products */,
 			);
@@ -40,7 +46,7 @@
 		2960F63C2DEAB39F00EE872C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2960F63B2DEAB39F00EE872C /* Isotope Neutron Calc.app */,
+				2960F63B2DEAB39F00EE872C /* Isotope.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +73,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Isotope Neutron Calc";
-			productReference = 2960F63B2DEAB39F00EE872C /* Isotope Neutron Calc.app */;
+			productReference = 2960F63B2DEAB39F00EE872C /* Isotope.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2960F6512DEAB6AE00EE872C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -266,7 +274,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "softwaredevomar.Isotope-Neutron-Calc";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Isotope;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,6 +295,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -295,7 +304,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "softwaredevomar.Isotope-Neutron-Calc";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Isotope;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
